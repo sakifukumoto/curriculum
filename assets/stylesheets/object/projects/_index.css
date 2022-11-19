@@ -1,11 +1,60 @@
 /* 共通スタイルは外に書く */
+.p-header {
+  height: 100px;
+}
 
+.p-aside {
+  height: 250px;
+}
+
+.p-box {
+  height: 250px;
+}
+
+.p-footer {
+  height: 100px;
+}
 @media screen and (min-width: 796px) { /* pc用スタイル */
+.p-header {
+  background-color: #141f40;
+}
 
+.p-main {
+  display: flex;
+}
+
+.p-aside {
+  width: 150px;
+  background-color: #80bfa8;
+}
+
+.p-box {
+  width: 250px;
+  background-color: #8c2727;
+}
+
+.p-footer {
+  background-color: #d98d30;
+}
 
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
+  .p-header {
+    background-color: #e91e63;
+  }
+
+  .p-aside {
+    background-color: #0093b7;
+  }
+
+  .p-box {
+    background-color: #dbd400;
+  }
+
+  .p-footer {
+    background-color: #170e38;
+  }
 
 
 }
